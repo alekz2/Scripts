@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/env bash
 
 # more comment for test
 echo "my first GIT commit"
