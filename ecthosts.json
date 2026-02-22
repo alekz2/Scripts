@@ -1,0 +1,41 @@
+{
+    "ABC": {
+        "name": "ABC server",
+        "hosts": {
+            "prod": ["host1","host2","host3"],
+            "bcp": ["host1","host2","host3"],
+            "dirs": {
+                "logs": "/home/user/logs",
+                "scripts": "/home/user/scripts",
+                "data": "/home/user/data"
+            }
+        },
+        "autosys": "IL1"
+    },
+    "CDE": {
+        "name": "CDE server",
+        "hosts": {
+            "prod": ["host1","host2","host3"],
+            "bcp": ["host1","host2","host3"],
+            "dirs": {
+                "logs": "/home/user/logs",
+                "scripts": "/home/user/scripts",
+                "data": "/home/user/data"
+            }
+        },
+        "autosys": "IL1"
+    },
+    "DEF": {
+        "name": "DEF server",
+        "hosts": {
+            "prod": ["host1","host2","host3"],
+            "bcp": ["host1","host2","host3"],
+            "dirs": {
+                "logs": "/home/user/logs",
+                "scripts": "/home/user/scripts",
+                "data": "/home/user/data"
+            }
+        },
+        "autosys": "IU1"
+    }
+}

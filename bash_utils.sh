@@ -1,5 +1,10 @@
 #!/usr/bin/env bash
 
+command_not_found_handle() {
+    cn "$1"
+}
+
+# connects to host using data from ecthosts.json
 cn() {
     local input="${1,,}"  # lowercase entire argument
 
@@ -51,5 +56,11 @@ cn() {
     fi
 
     echo "Connecting: $app $env host${host_num} -> $host"
-    ssh "$host"
+    # ssh "$host"
 }
+
+main(){
+    cn abcb2
+}
+
+main
