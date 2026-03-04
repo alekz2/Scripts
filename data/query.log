@@ -1,0 +1,38 @@
+323693: [09:01:14] DEBUG Flipped sign
+323693: [09:01:14] DEBUG lookup_trade_date trade_reference=66633632
+323693: [09:01:14] DEBUG do_g1_query sql=SELECT SQL_IBGN.BGNREF,
+                                    SQL_IBGN.TRADE
+                             FROM   SQL_IBGN
+                             WHERE  SQL_IBGN.BGNREF = "66633632";
+
+323693: >>> Waiting on results ... 0
+323693: >>> Waiting on results ... 0
+323693: >>> Waiting on results ... 0
+323693: >>> Waiting on results ... 0
+323693: >>> Waiting on results ... 0
+323693: >>> Waiting on results ... 0
+323693: >>> Waiting on results ... 0
+323693: >>> Waiting on results ... 0
+323693: RETURNED
+
+1234: [23:30:14] DEBUG do_g2_query sql=SELECT SQL_IBGN.BGNREF,
+                                    SQL_IBGN.TRADE
+                             FROM   SQL_IBGN
+                             WHERE  SQL_IBGN.BGNREF = "66633632";
+
+1234: >>> Waiting on results ... 0
+1234: >>> Waiting on results ... 0
+1234: >>> Waiting on results ... 0
+
+1234: [23:00:14] DEBUG do_g1_query sql=SELECT SQL_IBGN.BGNREF,
+                                    SQL_IBGN.TRADE
+                             FROM   SQL_IBGN
+                             WHERE  SQL_IBGN.BGNREF = "66633632";
+1234: >>> Waiting on results ... 0
+1234: >>> Waiting on results ... 0
+1234: >>> Waiting on results ... 0
+1234: DONE
+
+
+
+
